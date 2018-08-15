@@ -1,0 +1,65 @@
+body {
+	background-image: url(chart-coffee-cup-970204.jpg);
+	/*background-position: center;*/
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+
+}
+.btn-danger {
+	background-color: orange;
+	border:none;
+}
+
+.btn-danger:hover {
+	background-color: #FB3207;
+}
+
+.col {
+	background-color: gray;
+	border: 2px solid black;
+}
+
+body:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .6; 
+  }
+
+ .display-4 {
+  	text-align: center;
+  	color: white;
+  	font-size: 5em
+
+  }
+
+  .jumbotron {
+  	margin-top: 50px;
+  	background-color: RGB(7, 159, 251  , 0.6);
+  	text-align: center;
+  	color: white;
+  	border-radius: 25px;
+  }
+
+  .btn-primary {
+  	background-color: #FFA07A;
+  	border:none;
+  	margin-top: 40px;
+  }
+
+  .navbar-brand img{
+  	height:30px;
+  }
+
+  .logo img {
+  	height: 160px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    margin-top: 50px; 
+  }
